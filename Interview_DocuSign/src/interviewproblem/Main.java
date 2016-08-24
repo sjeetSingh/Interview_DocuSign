@@ -18,6 +18,7 @@ public class Main
 		
 		while(tempInput>2 || tempInput<1)
 		{
+			// Invalid input case taken care of, at this point.
 			System.out.println("Please enter a valid choice.");
 			tempInput = scanner.nextInt();		
 		}

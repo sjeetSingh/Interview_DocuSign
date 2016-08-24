@@ -37,11 +37,6 @@ public class Main
 			{
 				clothingLogicObj.tempSetter(tempInput);
 			}
-			else
-			{
-				System.out.println("Incorrect choice. Please enter the correct choice from the menu");
-			}
-			
 		}
 		catch(Exception e)
 		{	System.out.println(e.getMessage());	}
